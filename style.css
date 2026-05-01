@@ -330,10 +330,10 @@
 }
 
 .gallery-grid {
-  display: ???;
-  flex-wrap: ???;
-  gap: ???;
-  justify-content: ???;
+  display: row;
+  flex-wrap: 1;
+  gap: 1rem;
+  justify-content: space-around;
 }
 
 .gallery-card {
@@ -382,9 +382,9 @@
 .about {
   background-color: #f1efe8;
   padding: 24px;
-  display: ???;
-  gap: ???;
-  align-items: ???;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
 
 .about-image {
@@ -402,7 +402,7 @@
 
 .about-content {
   display: flex;
-  flex-direction: ???;
+  flex-direction: row;
   gap: 10px;
 }
 
@@ -420,8 +420,8 @@
 }
 
 .about-tags {
-  display: ???;
-  flex-wrap: ???;
+  display: space-around;
+  flex-wrap: 1;
   gap: 8px;
 }
 
